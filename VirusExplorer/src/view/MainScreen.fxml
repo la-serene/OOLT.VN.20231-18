@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.virusexplorer.controller.MainScreenController">
+   <right>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="16.0" BorderPane.alignment="CENTER">
+            <Button fx:id="btnHelp" mnemonicParsing="false" onAction="#btnHelpClicked" text="Help" />
+            <Button fx:id="btnQuit" mnemonicParsing="false" onAction="#btnQuitClicked" text="Quit" />
+         <padding>
+            <Insets top="16.0" />
+         </padding>
+      </VBox>
+   </right>
+   <center>
+      <GridPane fx:id="gridPane" BorderPane.alignment="CENTER">
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+   </center>
+</BorderPane>
