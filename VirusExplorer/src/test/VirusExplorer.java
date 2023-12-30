@@ -30,7 +30,7 @@ public class VirusExplorer extends Application {
     public static void main(String[] args) {
         virusList = new VirusList();
         VirusWithEnvelope v1 = new VirusWithEnvelope("HIV", "", "");
-        VirusWithEnvelope v2 = new VirusWithEnvelope("Influenza", "", "");
+        VirusWithEnvelope v2 = new VirusWithEnvelope("Influenza", "/assets/illustrations/influenza_diagram.png", "");
         VirusWithoutEnvelope v3 = new VirusWithoutEnvelope("Norovirus", "", "");
 
         virusList.addVirus(v1);

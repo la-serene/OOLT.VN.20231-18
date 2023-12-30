@@ -2,15 +2,24 @@ package controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 import virus.Virus;
 import virus.VirusList;
+
+import java.io.IOException;
 
 public class VirusItemController {
     @FXML
     public TextField tfVirusName;
+    public Virus virus;
 
-    public VirusItemController() {
+    public VirusItemController(Virus virus) {
+        this.virus = virus;
     }
 
     public void setData(Virus virus) {
@@ -18,7 +27,23 @@ public class VirusItemController {
     }
 
     public void btnExamineVirusClicked(ActionEvent e) {
+        try {
+            final String ILLUSTRATION_FXML = "/view/Illustration.fxml";
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(ILLUSTRATION_FXML));
+            IllustrationController illustrationController = new IllustrationController();
 
+            fxmlLoader.setController(illustrationController);
+            Parent root = fxmlLoader.load();
+
+            illustrationController.setIllustration(virus);
+
+            Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.setTitle("Cart");
+            stage.show();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 
     public void btnInspectInjectionClicked(ActionEvent e) {

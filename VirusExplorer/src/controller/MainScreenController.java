@@ -80,7 +80,7 @@ public class MainScreenController {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource(ITEM_FXML));
 
-                VirusItemController virusItemController = new VirusItemController();
+                VirusItemController virusItemController = new VirusItemController(virus);
                 fxmlLoader.setController(virusItemController);
 
                 AnchorPane anchorPane = fxmlLoader.load();
