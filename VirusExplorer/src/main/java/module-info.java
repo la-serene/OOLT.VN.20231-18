@@ -1,4 +1,4 @@
-module com.example.demo {
+module com.example.virusexplorer {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.demo {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.demo to javafx.fxml;
-    exports com.example.demo;
+    opens com.example.virusexplorer to javafx.fxml;
+    exports com.example.virusexplorer;
 }
