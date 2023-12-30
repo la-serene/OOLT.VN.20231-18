@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -112,6 +113,6 @@ public class MainScreenController {
     }
 
     public void btnQuitClicked(ActionEvent e) {
-
+        Platform.exit();
     }
 }
