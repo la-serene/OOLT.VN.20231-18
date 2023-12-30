@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1222ac8f-a964-42e4-9cfd-7ec9b2ba6840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/illutrations/with_envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/references.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/VirusItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VirusItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/VirusItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/VirusItem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/virus/VirusList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/virus/VirusWithEnvelope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusWithEnvelope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/virus/VirusWithoutEnvelope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusWithoutEnvelope.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703911184848</updated>
       <workItem from="1703911186228" duration="1195000" />
-      <workItem from="1703912406887" duration="12700000" />
+      <workItem from="1703912406887" duration="14971000" />
     </task>
     <servers />
   </component>
