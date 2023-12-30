@@ -11,8 +11,12 @@ public class IllustrationController {
     @FXML
     public ImageView virus_diagram;
     @FXML
+    public Virus virus;
     public TextArea taVirusDescription;
-    public void setIllustration(Virus virus) {
+    public IllustrationController(Virus virus) {
+        this.virus = virus;
+    }
+    public void setIllustration() {
         Image image = new Image(virus.ILLUSTRATION_PATH);
         virus_diagram.setImage(image);
         taVirusDescription.setText(virus.description);
