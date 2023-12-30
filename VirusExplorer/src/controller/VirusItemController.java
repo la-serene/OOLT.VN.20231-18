@@ -47,6 +47,20 @@ public class VirusItemController {
     }
 
     public void btnInspectInjectionClicked(ActionEvent e) {
+        try {
+            final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
 
+            InspectInfectionController inspectInfectionController = new InspectInfectionController();
+            fxmlLoader.setController(inspectInfectionController);
+
+            Parent root = fxmlLoader.load();
+
+            inspectInfectionController.setVideo(virus);
+
+
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 }

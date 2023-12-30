@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.media.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox prefHeight="200.0" prefWidth="100.0" />
-      <MediaView fx:id="inspect_infection" fitHeight="200.0" fitWidth="200.0" layoutX="193.0" layoutY="83.0" />
+      <ScrollPane prefHeight="400.0" prefWidth="600.0">
+         <content>
+            <TextArea fx:id="taAbout" prefHeight="397.0" prefWidth="601.0" />
+         </content></ScrollPane>
    </children>
 </AnchorPane>

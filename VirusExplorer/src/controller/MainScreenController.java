@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.AnchorPane;
@@ -109,7 +110,16 @@ public class MainScreenController {
     }
 
     public void btnHelpClicked(ActionEvent e) {
+        try {
+            final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
+            InspectInfectionController inspectInfectionController = new InspectInfectionController();
+            fxmlLoader.setController(inspectInfectionController);
 
+            Parent root = fxmlLoader.load();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 
     public void btnQuitClicked(ActionEvent e) {
