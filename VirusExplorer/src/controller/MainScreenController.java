@@ -41,7 +41,6 @@ public class MainScreenController {
 
     @FXML
     public void initialize() {
-        System.out.println("Init called!");
     }
 
     @FXML
@@ -52,6 +51,7 @@ public class MainScreenController {
 
         vbox_in_stack.setVisible(false);
         scrollPane_in_stack.setVisible(true);
+        gridPane.getChildren().clear();
 
         showVirusListToExplore();
     }
@@ -64,6 +64,7 @@ public class MainScreenController {
 
         vbox_in_stack.setVisible(false);
         scrollPane_in_stack.setVisible(true);
+        gridPane.getChildren().clear();
 
         showVirusListToExplore();
     }
@@ -73,17 +74,17 @@ public class MainScreenController {
         int column = 0;
         int row = 1;
 
-        for (int i = 0; i < virusListToExplore.size(); i++) {
+        for (Virus virus : virusListToExplore) {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource(ITEM_FXML));
 
-                VirusItemController virusItemController = new VirusItemController(virusList);
+                VirusItemController virusItemController = new VirusItemController();
                 fxmlLoader.setController(virusItemController);
 
                 AnchorPane anchorPane = fxmlLoader.load();
 
-                virusItemController.setData(virusList.listOfVirus.get(i));
+                virusItemController.setData(virus);
 
                 if (column == 3) {
                     column = 0;
@@ -95,6 +96,14 @@ public class MainScreenController {
             } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
+        }
+    }
+
+    public void btnReturnClicked(ActionEvent e) {
+        if (!vbox_in_stack.isVisible()) {
+            vbox_in_stack.setVisible(true);
+            scrollPane_in_stack.setVisible(false);
+            virusListToExplore = new ArrayList<>();
         }
     }
 

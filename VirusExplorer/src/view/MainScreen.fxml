@@ -9,7 +9,7 @@
 <BorderPane minWidth="1068.0" prefHeight="768.0" prefWidth="1048.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
     <right>
         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="16.0" BorderPane.alignment="CENTER">
-         <Button mnemonicParsing="false" text="Return" />
+         <Button fx:id="btnReturn" mnemonicParsing="false" onAction="#btnReturnClicked" text="Return" />
             <Button fx:id="btnHelp" minWidth="52.0" mnemonicParsing="false" onAction="#btnHelpClicked" text="Help" />
             <Button fx:id="btnQuit" minWidth="52.0" mnemonicParsing="false" onAction="#btnQuitClicked" text="Quit" />
             <padding>
@@ -20,7 +20,7 @@
    <center>
       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <ScrollPane fx:id="scrollPane_in_stack" prefHeight="200.0" prefViewportHeight="960.0" prefViewportWidth="1024.0" prefWidth="200.0">
+            <ScrollPane fx:id="scrollPane_in_stack" prefHeight="200.0" prefViewportHeight="960.0" prefViewportWidth="1024.0" prefWidth="200.0" visible="false">
                <content>
                     <GridPane fx:id="gridPane">
                         <rowConstraints>

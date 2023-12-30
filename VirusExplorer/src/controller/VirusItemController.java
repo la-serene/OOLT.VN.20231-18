@@ -7,12 +7,10 @@ import virus.Virus;
 import virus.VirusList;
 
 public class VirusItemController {
-    public final VirusList listOfVirus;
     @FXML
     public TextField tfVirusName;
 
-    public VirusItemController(VirusList listOfVirus) {
-        this.listOfVirus = listOfVirus;
+    public VirusItemController() {
     }
 
     public void setData(Virus virus) {
