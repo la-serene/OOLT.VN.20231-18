@@ -1,7 +1,5 @@
-package com.example.virusexplorer.controller;
+package controller;
 
-import com.example.virusexplorer.test.da;
-import com.example.virusexplorer.virus.VirusList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
+import virus.VirusList;
 
 import java.io.IOException;
 
@@ -26,15 +25,16 @@ public class MainScreenController {
     }
     @FXML
     public void initialize() {
+            final String ITEM_FXML = "/view/Item.fxml";
             int column = 0;
             int row = 1;
 
             for (int i = 0; i < virusList.listOfVirus.size(); i++) {
                 try {
-                    FXMLLoader fxmlLoader = new FXMLLoader(da.class.getResource("VirusItem.fxml"));
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(ITEM_FXML));
                     Parent root = fxmlLoader.load();
 
-                    fxmlLoader.setLocation(da.class.getResource("VirusItem.fxml"));
+                    fxmlLoader.setLocation(getClass().getResource(ITEM_FXML));
 
                     VirusItemController virusItemController = new VirusItemController(virusList);
 

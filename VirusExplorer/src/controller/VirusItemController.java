@@ -1,7 +1,7 @@
-package com.example.virusexplorer.controller;
+package controller;
 
-import com.example.virusexplorer.virus.Virus;
-import com.example.virusexplorer.virus.VirusList;
+import virus.Virus;
+import virus.VirusList;
 
 public class VirusItemController {
     public final VirusList listOfVirus;

@@ -1,4 +1,4 @@
-package com.example.virusexplorer.virus;
+package virus;
 
 import javafx.collections.ObservableList;
 

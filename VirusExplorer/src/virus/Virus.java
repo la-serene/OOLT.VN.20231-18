@@ -1,4 +1,4 @@
-package com.example.virusexplorer.virus;
+package virus;
 
 abstract public class Virus {
     public String name;

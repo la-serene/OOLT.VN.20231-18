@@ -1,4 +1,4 @@
-package com.example.virusexplorer.virus;
+package virus;
 
 public class VirusWithEnvelope {
     public VirusWithEnvelope() {
