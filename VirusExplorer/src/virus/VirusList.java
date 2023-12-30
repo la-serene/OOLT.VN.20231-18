@@ -1,7 +1,16 @@
 package virus;
 
-import javafx.collections.ObservableList;
+import java.util.ArrayList;
 
 public class VirusList {
-    public ObservableList<Virus> listOfVirus;
+    public ArrayList<Virus> listOfVirus = new ArrayList<>();
+
+    public void addVirus(Virus virus) {
+        if (listOfVirus.contains(virus)) {
+            System.out.println("Virus existed.");
+        } else {
+            listOfVirus.add(virus);
+            System.out.println("Virus added!");
+        }
+    }
 }
