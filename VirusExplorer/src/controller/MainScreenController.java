@@ -40,11 +40,6 @@ public class MainScreenController {
     public MainScreenController(VirusList virusList) {
         this.virusList = virusList;
     }
-
-    @FXML
-    public void initialize() {
-    }
-
     @FXML
     public void btnEnvelopeClicked(ActionEvent e) {
         for (Virus v : virusList.listOfVirus) {

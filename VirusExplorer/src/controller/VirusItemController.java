@@ -46,7 +46,7 @@ public class VirusItemController {
         }
     }
 
-    public void btnInspectInjectionClicked(ActionEvent e) {
+    public void btnInspectInfectionClicked(ActionEvent e) {
         try {
             final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
