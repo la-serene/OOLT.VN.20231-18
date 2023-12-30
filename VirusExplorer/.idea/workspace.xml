@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1222ac8f-a964-42e4-9cfd-7ec9b2ba6840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/VirusItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/MainScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/VirusItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virus/Virus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virus/VirusList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virus/VirusWithEnvelope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/virus/VirusWithoutEnvelope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusexplorer/controller/MainScreenController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusexplorer/virus/Virus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/virusexplorer/MainScreen.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/virusexplorer/cvfg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/illutrations/with_envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/references.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/VirusItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VirusItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/VirusItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/VirusItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virus/VirusList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virus/VirusWithEnvelope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusWithEnvelope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virus/VirusWithoutEnvelope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/VirusWithoutEnvelope.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +43,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature/virus__app",
-    "last_opened_file_path": "C:/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib",
+    "last_opened_file_path": "I:/BKA/nam ba/20231/OOP/OOLT.VN.20231-18/VirusExplorer/src/assets/illutrations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.29425287",
@@ -69,11 +64,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\assets\illutrations" />
       <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\view" />
       <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\virus" />
       <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\test" />
       <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\controller" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VirusExplorer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.VirusExplorer" />
+      <module name="VirusExplorer" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703911184848</updated>
-      <workItem from="1703911186228" duration="448000" />
+      <workItem from="1703911186228" duration="1195000" />
+      <workItem from="1703912406887" duration="12700000" />
     </task>
     <servers />
   </component>
