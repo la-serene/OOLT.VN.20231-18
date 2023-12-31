@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import virus.Virus;
 import virus.VirusList;
@@ -37,10 +38,12 @@ public class VirusItemController {
 
             illustrationController.setIllustration();
 
-            Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.setTitle("Cart");
-            stage.show();
+            Stage illustrationStage = new Stage();
+            illustrationStage.initModality(Modality.NONE);
+            illustrationStage.initOwner(((Node) e.getSource()).getScene().getWindow());
+            illustrationStage.setScene(new Scene(root));
+            illustrationStage.setTitle("Illustration");
+            illustrationStage.show();
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -57,7 +60,6 @@ public class VirusItemController {
             Parent root = fxmlLoader.load();
 
             inspectInfectionController.setVideo(virus);
-
 
         } catch (IOException ioe) {
             ioe.printStackTrace();
