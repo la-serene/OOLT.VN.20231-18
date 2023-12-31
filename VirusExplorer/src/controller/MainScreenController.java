@@ -5,12 +5,16 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.scene.Node;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import virus.Virus;
 import virus.VirusList;
 import virus.VirusWithEnvelope;
@@ -106,12 +110,22 @@ public class MainScreenController {
 
     public void btnHelpClicked(ActionEvent e) {
         try {
-            final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
-            InspectInfectionController inspectInfectionController = new InspectInfectionController();
-            fxmlLoader.setController(inspectInfectionController);
+            final String HELP_SCREEN_FXML = "/view/HelpScreen.fxml";
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(HELP_SCREEN_FXML));
+            HelpScreenController helpScreenController = new HelpScreenController();
+            fxmlLoader.setController(helpScreenController);
 
             Parent root = fxmlLoader.load();
+
+            helpScreenController.setAbout();
+            
+            Stage helpMenuStage = new Stage();
+            helpMenuStage.initModality(Modality.NONE);
+            helpMenuStage.initOwner(((Node) e.getSource()).getScene().getWindow());
+            helpMenuStage.setScene(new Scene(root));
+            helpMenuStage.setTitle("About");
+            helpMenuStage.show();
+
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
