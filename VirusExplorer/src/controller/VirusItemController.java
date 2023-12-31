@@ -30,12 +30,12 @@ public class VirusItemController {
         try {
             final String ILLUSTRATION_FXML = "/view/Illustration.fxml";
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(ILLUSTRATION_FXML));
-            IllustrationController illustrationController = new IllustrationController();
+            IllustrationController illustrationController = new IllustrationController(virus);
 
             fxmlLoader.setController(illustrationController);
             Parent root = fxmlLoader.load();
 
-            illustrationController.setIllustration(virus);
+            illustrationController.setIllustration();
 
             Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
