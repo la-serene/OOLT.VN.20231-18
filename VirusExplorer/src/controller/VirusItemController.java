@@ -44,6 +44,7 @@ public class VirusItemController {
             illustrationStage.setScene(new Scene(root));
             illustrationStage.setTitle("Illustration");
             illustrationStage.show();
+
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
