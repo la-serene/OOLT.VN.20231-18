@@ -9,7 +9,11 @@ import virus.Virus;
 public class InspectInfectionController {
     @FXML
     public MediaView inspect_infection;
-    public void setVideo(Virus virus) {
+    public Virus virus;
+    public InspectInfectionController(Virus virus) {
+        this.virus = virus;
+    }
+    public void setVideo() {
         Media media = new Media(virus.INFECTION_MECHANISM_PATH);
         MediaPlayer mediaPlayer = new MediaPlayer(media);
 

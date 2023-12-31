@@ -55,12 +55,18 @@ public class VirusItemController {
             final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
 
-            InspectInfectionController inspectInfectionController = new InspectInfectionController();
+            InspectInfectionController inspectInfectionController = new InspectInfectionController(virus);
             fxmlLoader.setController(inspectInfectionController);
 
             Parent root = fxmlLoader.load();
+            inspectInfectionController.setVideo();
 
-            inspectInfectionController.setVideo(virus);
+            Stage inspectInfectionStage = new Stage();
+            inspectInfectionStage.initModality(Modality.NONE);
+            inspectInfectionStage.initOwner(((Node) e.getSource()).getScene().getWindow());
+            inspectInfectionStage.setScene(new Scene(root));
+            inspectInfectionStage.setTitle("Infection process");
+            inspectInfectionStage.show();
 
         } catch (IOException ioe) {
             ioe.printStackTrace();
