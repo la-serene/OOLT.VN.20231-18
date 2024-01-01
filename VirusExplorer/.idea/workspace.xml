@@ -4,29 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1222ac8f-a964-42e4-9cfd-7ec9b2ba6840" name="Changes" comment="">
+    <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/HelpMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HelpScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HelpMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/HelpScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/VirusItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VirusItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InspectInfection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InspectInfection.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2aFP7HyS9fkpqtO8zeyolY1JdGz" />
+  <component name="ProjectId" id="2aK5X2M9P0NX4HIZKdpRlmsfiqT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -37,39 +31,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/show__help",
-    "last_opened_file_path": "I:/BKA/nam ba/20231/OOP/OOLT.VN.20231-18/VirusExplorer/src/assets/illutrations",
+    "git-widget-placeholder": "feature/show__infection__video",
+    "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/VirusExplorer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\assets\illutrations" />
-      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\view" />
-      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\virus" />
-      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\test" />
-      <recent name="I:\BKA\nam ba\20231\OOP\OOLT.VN.20231-18\VirusExplorer\src\controller" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="VirusExplorer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="test.VirusExplorer" />
       <module name="VirusExplorer" />
-      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics,javafx.media" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,26 +56,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1222ac8f-a964-42e4-9cfd-7ec9b2ba6840" name="Changes" comment="" />
-      <created>1703911184848</created>
+      <changelist id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="" />
+      <created>1704054466135</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703911184848</updated>
-      <workItem from="1703911186228" duration="1195000" />
-      <workItem from="1703912406887" duration="24625000" />
-      <workItem from="1703944088442" duration="1086000" />
-      <workItem from="1703945200011" duration="2406000" />
+      <updated>1704054466135</updated>
+      <workItem from="1704054467483" duration="91000" />
+      <workItem from="1704054723987" duration="4311000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="virusListToExplore" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

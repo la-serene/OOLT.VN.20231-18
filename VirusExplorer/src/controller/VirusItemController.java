@@ -7,10 +7,10 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import virus.Virus;
-import virus.VirusList;
 
 import java.io.IOException;
 
@@ -52,13 +52,13 @@ public class VirusItemController {
 
     public void btnInspectInfectionClicked(ActionEvent e) {
         try {
-            final String INSPECT_INFECTION_FXML = "view/InspectInfection.fxml";
+            final String INSPECT_INFECTION_FXML = "/view/InspectInfection.fxml";
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(INSPECT_INFECTION_FXML));
 
             InspectInfectionController inspectInfectionController = new InspectInfectionController(virus);
             fxmlLoader.setController(inspectInfectionController);
 
-            Parent root = fxmlLoader.load();
+            AnchorPane root = fxmlLoader.load();
             inspectInfectionController.setVideo();
 
             Stage inspectInfectionStage = new Stage();
@@ -66,8 +66,8 @@ public class VirusItemController {
             inspectInfectionStage.initOwner(((Node) e.getSource()).getScene().getWindow());
             inspectInfectionStage.setScene(new Scene(root));
             inspectInfectionStage.setTitle("Infection process");
+            inspectInfectionStage.setOnCloseRequest(closingEvent -> inspectInfectionController.inspect_infection.getMediaPlayer().stop());
             inspectInfectionStage.show();
-
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
