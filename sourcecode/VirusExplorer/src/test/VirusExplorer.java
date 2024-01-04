@@ -10,6 +10,9 @@ import virus.VirusList;
 import virus.VirusWithEnvelope;
 import virus.VirusWithoutEnvelope;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class VirusExplorer extends Application {
     public static VirusList virusList;
 
@@ -28,14 +31,9 @@ public class VirusExplorer extends Application {
     }
 
     public static void main(String[] args) {
+        Path currentPath = Paths.get("");
+        System.out.println(currentPath);
         virusList = new VirusList();
-        VirusWithEnvelope v1 = new VirusWithEnvelope("HIV", "", "");
-        VirusWithEnvelope v2 = new VirusWithEnvelope("Influenza", "/assets/illustrations/influenza_diagram.png", "/assets/infection/influenza_infection.mp4");
-        VirusWithoutEnvelope v3 = new VirusWithoutEnvelope("Norovirus", "", "");
-
-        virusList.addVirus(v1);
-        virusList.addVirus(v2);
-        virusList.addVirus(v3);
 
         launch(args);
     }
