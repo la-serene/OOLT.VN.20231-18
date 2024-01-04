@@ -26,5 +26,4 @@ public class InspectInfectionController {
 
         mediaPlayer.setAutoPlay(true);
         System.out.println();
-    }
-}
+    }}

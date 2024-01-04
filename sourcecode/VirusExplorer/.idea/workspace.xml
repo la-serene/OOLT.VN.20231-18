@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/influenza_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/with_envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/without_envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/influenza_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/infection/Influenza_infection.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/VirusItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VirusItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InspectInfection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InspectInfection.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +20,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2aK5X2M9P0NX4HIZKdpRlmsfiqT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -34,12 +36,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/show__infection__video",
-    "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/VirusExplorer",
+    "git-widget-placeholder": "feature/add__resource",
+    "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,10 +67,18 @@
       <updated>1704054466135</updated>
       <workItem from="1704054467483" duration="91000" />
       <workItem from="1704054723987" duration="4311000" />
+      <workItem from="1704362529920" duration="1701000" />
+      <workItem from="1704371481350" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
