@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/data.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/data/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -62,7 +70,7 @@
       <workItem from="1704054467483" duration="91000" />
       <workItem from="1704054723987" duration="4311000" />
       <workItem from="1704362529920" duration="1701000" />
-      <workItem from="1704371481350" duration="364000" />
+      <workItem from="1704371481350" duration="1050000" />
     </task>
     <servers />
   </component>
