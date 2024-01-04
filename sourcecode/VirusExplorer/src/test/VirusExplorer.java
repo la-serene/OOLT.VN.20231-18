@@ -32,7 +32,12 @@ public class VirusExplorer extends Application {
 
     public static void main(String[] args) {
         Path currentPath = Paths.get("");
-        System.out.println(currentPath);
+        final String ENVELOPED_VIRUS_PATH = "/src/assets/data/Enveloped Virus";
+        final String NON_ENVELOPED_VIRUS_PATH = "/src/assets/data/Non-Enveloped Virus";
+
+
+
+
         virusList = new VirusList();
 
         launch(args);
