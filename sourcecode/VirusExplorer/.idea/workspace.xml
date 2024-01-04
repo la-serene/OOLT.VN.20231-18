@@ -5,8 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/data/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/create_ins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Ebola/EbolaVirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Ebola/EbolaVirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Ebola/EbolaVirus_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Ebola/EbolaVirus_diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Ebola/EbolaVirus_infection(3D).mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Ebola/EbolaVirus_infection(3D).mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HIV/HIV_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HIV/HIV_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HIV/HIV_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HIV/HIV_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HIV/HIV_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HIV/HIV_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HSV/HerpesSimplexVirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HSV/HerpesSimplexVirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HSV/HerpesSimplexVirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HSV/HerpesSimplexVirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/HSV/HerpesSimplexVirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HSV/HerpesSimplexVirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Hepatitis C/HepatitisCVirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Hepatitis C/HepatitisCVirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Hepatitis C/HepatitisCVirus_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Hepatitis C/HepatitisCVirus_diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Hepatitis C/HepatitisCVirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Hepatitis C/HepatitisCVirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Influenza/InflluenzaVirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Influenza/InflluenzaVirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Influenza/InfluenzaVirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Influenza/InfluenzaVirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/Influenza/InfluenzaVirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Influenza/InfluenzaVirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/SARS-CoV-2/SARS-CoV-2_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/SARS-CoV-2/SARS-CoV-2_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/SARS-CoV-2/SARS-CoV-2_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/SARS-CoV-2/SARS-CoV-2_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped Virus/SARS-CoV-2/SARS-CoV-2_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/SARS-CoV-2/SARS-CoV-2_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Adenovirus/AdenoVirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Adenovirus/AdenoVirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Adenovirus/Adenovirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Adenovirus/Adenovirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Adenovirus/Adenovirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Adenovirus/Adenovirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Norovirus/Norovirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Norovirus/Norovirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Norovirus/Norovirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Norovirus/Norovirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Norovirus/Norovirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Norovirus/Norovirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Papillomavirus/Papillomavirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Papillomavirus/Papillomavirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Papillomavirus/Papillomavirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Papillomavirus/Papillomavirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Papillomavirus/Papillomavirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Papillomavirus/Papillomavirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rhinovirus/Rhinovirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rhinovirus/Rhinovirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rhinovirus/Rhinovirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rhinovirus/Rhinovirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rhinovirus/Rhinovirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rhinovirus/Rhinovirus_infection.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rotavirus/Rotavirus_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rotavirus/Rotavirus_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rotavirus/Rotavirus_diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rotavirus/Rotavirus_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/Non-enveloped Virus/Rotavirus/Rotavirus_infection.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/Rotavirus/Rotavirus_infection.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,22 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/add__resource",
-    "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/add__resource&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\BKA\nam_ba\20231\OOP\OOLT.VN.20231-18\sourcecode\VirusExplorer\src\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="VirusExplorer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="test.VirusExplorer" />
@@ -71,6 +109,7 @@
       <workItem from="1704054723987" duration="4311000" />
       <workItem from="1704362529920" duration="1701000" />
       <workItem from="1704371481350" duration="1050000" />
+      <workItem from="1704374021857" duration="1755000" />
     </task>
     <servers />
   </component>
