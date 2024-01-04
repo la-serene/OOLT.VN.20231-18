@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/influenza_diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/with_envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/illustrations/without_envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/influenza_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/infection/Influenza_infection.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/VirusExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/VirusExplorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <workItem from="1704054467483" duration="91000" />
       <workItem from="1704054723987" duration="4311000" />
       <workItem from="1704362529920" duration="1701000" />
-      <workItem from="1704371481350" duration="65000" />
+      <workItem from="1704371481350" duration="364000" />
     </task>
     <servers />
   </component>
