@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Ebola/EbolaVirus_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HIV/HIV_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HSV/HerpesSimplexVirus_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Hepatitis_C/HepatitisCVirus_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Influenza/InflluenzaVirus_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/SARS-CoV-2/SARS-CoV-2_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/Non-enveloped_Virus/a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Ebola/EbolaVirus_Description.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HIV/HIV_Description.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/HSV/HerpesSimplexVirus_Description.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Hepatitis_C/HepatitisCVirus_Description.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/Influenza/InfluenzaVirus_Description.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/Enveloped_Virus/SARS-CoV-2/SARS-CoV-2_Description.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/IllustrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/IllustrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Illustration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Illustration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/virus/Virus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/virus/Virus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +41,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\BKA\nam_ba\20231\OOP\OOLT.VN.20231-18\sourcecode\VirusExplorer\src\assets\data\Non-enveloped_Virus\Rotavirus" />
+      <recent name="I:\BKA\nam_ba\20231\OOP\OOLT.VN.20231-18\sourcecode\VirusExplorer\src\assets\data\Non-enveloped_Virus\Rhinovirus" />
+      <recent name="I:\BKA\nam_ba\20231\OOP\OOLT.VN.20231-18\sourcecode\VirusExplorer\src\assets\data\Non-enveloped_Virus\Papillomavirus" />
+      <recent name="I:\BKA\nam_ba\20231\OOP\OOLT.VN.20231-18\sourcecode\VirusExplorer\src\assets\data\Non-enveloped_Virus\Norovirus" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="VirusExplorer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="test.VirusExplorer" />
@@ -76,5 +74,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/IllustrationController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
