@@ -16,7 +16,7 @@ application designed to study various viruses' structure and infection process.
 
 ## Configuration
 
-To successfully run the project, the following steps should be done (Note: This guidance is made for IntelliJ only).
+To successfully run the project, the following steps should be done (Note: This instruction is made for IntelliJ only).
 
 1. Download the JavaFX version that is compatible with current project's JDK version.
 2. In Project Structure (Ctrl + Alt + Shift + S), choose Libraries, then add the path to the lib folder inside the
