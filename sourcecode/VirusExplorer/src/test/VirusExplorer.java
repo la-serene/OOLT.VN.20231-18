@@ -16,6 +16,7 @@ public class VirusExplorer extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         final String MAIN_SCREEN_FXML = "/view/MainScreen.fxml";
+
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(MAIN_SCREEN_FXML));
         MainScreenController mainScreenController = new MainScreenController(virusList);
         fxmlLoader.setController(mainScreenController);

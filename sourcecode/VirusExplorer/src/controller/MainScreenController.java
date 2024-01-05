@@ -92,6 +92,8 @@ public class MainScreenController {
                     row += 1;
                 }
 
+                System.out.println("Hello world");
+
                 gridPane.add(anchorPane, column++, row);
                 GridPane.setMargin(anchorPane, new Insets(20, 10, 10, 10));
             } catch (IOException ioe) {
