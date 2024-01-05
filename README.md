@@ -21,8 +21,6 @@ To successfully run the project, the following steps should be done (Note: This 
 1. Download the JavaFX version that is compatible with current project's JDK version.
 2. In Project Structure (Ctrl + Alt + Shift + S), choose Libraries, then add the path to the lib folder inside the
    unzipped JavaFX directory.
-
-   ![image](https://ibb.co/JvWp8WM)
 3. Choose Run &rarr; Edit Configuration..., create a new Application configuration for test.VirusExplorer class. Add VM
    Options in Modify Options... menu. Insert the line below to VM Options.
 
