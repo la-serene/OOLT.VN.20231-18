@@ -100,6 +100,7 @@ public class MainScreenController {
         }
     }
 
+    @FXML
     public void btnReturnClicked(ActionEvent e) {
         if (!vbox_in_stack.isVisible()) {
             vbox_in_stack.setVisible(true);
@@ -108,6 +109,7 @@ public class MainScreenController {
         }
     }
 
+    @FXML
     public void btnHelpClicked(ActionEvent e) {
         try {
             final String HELP_SCREEN_FXML = "/view/HelpScreen.fxml";
@@ -131,6 +133,7 @@ public class MainScreenController {
         }
     }
 
+    @FXML
     public void btnQuitClicked(ActionEvent e) {
         Platform.exit();
     }
