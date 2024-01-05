@@ -27,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/update__readme",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer/src",
     "node.js.detected.package.eslint": "true",
@@ -72,6 +72,7 @@
       <workItem from="1704054467483" duration="91000" />
       <workItem from="1704054723987" duration="4311000" />
       <workItem from="1704429716099" duration="3013000" />
+      <workItem from="1704437140954" duration="369000" />
     </task>
     <servers />
   </component>
