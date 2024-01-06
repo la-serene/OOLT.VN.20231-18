@@ -16,14 +16,14 @@ import java.io.IOException;
 
 public class VirusItemController {
     @FXML
-    public TextField tfVirusName;
-    public Virus virus;
+    private TextField tfVirusName;
+    private Virus virus;
 
     public VirusItemController(Virus virus) {
         this.virus = virus;
     }
 
-    public void setData(Virus virus) {
+    private void setData() {
         tfVirusName.setText(virus.getName());
     }
 
