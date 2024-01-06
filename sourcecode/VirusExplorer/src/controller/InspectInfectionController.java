@@ -18,7 +18,7 @@ public class InspectInfectionController {
 
     public void setVideo() {
         String currentPath = System.getProperty("user.dir").replace("\\", "/");
-        String absoluteVideoPath = "file:///" + currentPath + "/src" + virus.getIllustrationPath();
+        String absoluteVideoPath = "file:///" + currentPath + "/src" + virus.getInfectionMechanismPath();
 
         Media media = new Media(absoluteVideoPath);
         MediaPlayer mediaPlayer = new MediaPlayer(media);
