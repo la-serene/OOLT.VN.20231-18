@@ -20,6 +20,7 @@ import virus.VirusList;
 import virus.VirusWithEnvelope;
 import virus.VirusWithoutEnvelope;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -44,6 +45,7 @@ public class MainScreenController {
     public MainScreenController(VirusList virusList) {
         this.virusList = virusList;
     }
+
     @FXML
     public void btnEnvelopeClicked(ActionEvent e) {
         for (Virus v : virusList.getListOfVirus()) {
@@ -120,7 +122,7 @@ public class MainScreenController {
             Parent root = fxmlLoader.load();
 
             helpScreenController.setAbout();
-            
+
             Stage helpMenuStage = new Stage();
             helpMenuStage.initModality(Modality.NONE);
             helpMenuStage.initOwner(((Node) e.getSource()).getScene().getWindow());
@@ -132,8 +134,12 @@ public class MainScreenController {
             ioe.printStackTrace();
         }
     }
+
     @FXML
     public void btnQuitClicked(ActionEvent e) {
-        Platform.exit();
+        int option = JOptionPane.showConfirmDialog(null, "Do you want to exit the program?",
+                "Exit the program", JOptionPane.YES_NO_OPTION);
+
+        if (option == JOptionPane.YES_OPTION) Platform.exit();
     }
 }
