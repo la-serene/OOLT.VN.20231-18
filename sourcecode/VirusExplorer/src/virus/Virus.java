@@ -22,3 +22,4 @@ abstract public class Virus {
     public String getInfectionMechanismPath() {
         return INFECTION_MECHANISM_PATH;
     }
+}
