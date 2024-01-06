@@ -27,26 +27,26 @@ public class MainScreenController {
     private final VirusList virusList;
     private ArrayList<Virus> virusListToExplore = new ArrayList<>();
     @FXML
-    public Button btnHelp;
+    private Button btnHelp;
     @FXML
-    public Button btnQuit;
+    private Button btnQuit;
     @FXML
-    public ScrollPane scrollPane_in_stack;
+    private ScrollPane scrollPane_in_stack;
     @FXML
-    public VBox vbox_in_stack;
+    private VBox vbox_in_stack;
     @FXML
-    public Button btnEnvelope;
+    private Button btnEnvelope;
     @FXML
-    public Button btnNoEnvelope;
+    private Button btnNoEnvelope;
     @FXML
-    public GridPane gridPane;
+    private GridPane gridPane;
 
     public MainScreenController(VirusList virusList) {
         this.virusList = virusList;
     }
     @FXML
     public void btnEnvelopeClicked(ActionEvent e) {
-        for (Virus v : virusList.listOfVirus) {
+        for (Virus v : virusList.getListOfVirus()) {
             if (v instanceof VirusWithEnvelope) virusListToExplore.add(v);
         }
 
@@ -59,7 +59,7 @@ public class MainScreenController {
 
     @FXML
     public void btnNoEnvelopeClicked(ActionEvent e) {
-        for (Virus v : virusList.listOfVirus) {
+        for (Virus v : virusList.getListOfVirus()) {
             if (v instanceof VirusWithoutEnvelope) virusListToExplore.add(v);
         }
 
