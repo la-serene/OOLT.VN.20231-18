@@ -14,8 +14,8 @@ import java.nio.file.Paths;
 public class IllustrationController {
     @FXML
     private ImageView virus_diagram;
-    @FXML
     private Virus virus;
+    @FXML
     private TextArea taVirusDescription;
     public IllustrationController(Virus virus) {
         this.virus = virus;

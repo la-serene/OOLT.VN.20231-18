@@ -9,7 +9,7 @@ import virus.Virus;
 
 public class InspectInfectionController {
     @FXML
-    public MediaView inspect_infection;
+    private MediaView inspect_infection;
     public Virus virus;
 
     public InspectInfectionController(Virus virus) {
@@ -18,7 +18,7 @@ public class InspectInfectionController {
 
     public void setVideo() {
         String currentPath = System.getProperty("user.dir").replace("\\", "/");
-        String absoluteVideoPath = "file:///" + currentPath + "/src" + virus.INFECTION_MECHANISM_PATH;
+        String absoluteVideoPath = "file:///" + currentPath + "/src" + virus.getIllustrationPath();
 
         Media media = new Media(absoluteVideoPath);
         MediaPlayer mediaPlayer = new MediaPlayer(media);
