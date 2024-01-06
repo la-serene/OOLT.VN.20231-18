@@ -7,12 +7,12 @@ application designed to study various viruses' structure and infection process.
 
 ## Members
 
-| Student Code | Full name              | Assignment |
-|--------------|------------------------|------------|
-| 20215072     | Nguyễn Cao Kỳ (Leader) | ________   |
-| 20215068     | Hoàng Mạnh Kiên        | ________   |
-| 20210494     | Trần Trung Kiên        | ________   |
-| 20210531     | Đoàn Văn Linh          | ________   |
+| Student Code | Full name              | Assignment                                           |
+|--------------|------------------------|------------------------------------------------------|
+| 20215072     | Nguyễn Cao Kỳ (Leader) | Main Screen, Virus package classes, Report           |
+| 20215068     | Hoàng Mạnh Kiên        | Illustration Screen, Class diagram, Use-case diagram |
+| 20210494     | Trần Trung Kiên        | Inspect Infection Screen, Data Preparation           |
+| 20210531     | Đoàn Văn Linh          | Virus Item, Slides, Help Screen Content              |
 
 ## Configuration
 
@@ -30,3 +30,6 @@ To successfully run the project, the following steps should be taken (Note: This
 
 Replace ${PATH_TO_FX} with the absolute path to the lib folder inside JavaFX directory, or add a Path Variable named
 PATH_TO_FX whose value is the path to the mentioned lib folder in Settings.
+
+## Demo
+
