@@ -85,7 +85,7 @@ public class MainScreenController {
 
                 AnchorPane anchorPane = fxmlLoader.load();
 
-                virusItemController.setData(virus);
+                virusItemController.setData();
 
                 if (column == 3) {
                     column = 0;
