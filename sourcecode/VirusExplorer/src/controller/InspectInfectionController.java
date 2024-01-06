@@ -10,7 +10,7 @@ import virus.Virus;
 public class InspectInfectionController {
     @FXML
     private MediaView inspect_infection;
-    public Virus virus;
+    private Virus virus;
 
     public InspectInfectionController(Virus virus) {
         this.virus = virus;
