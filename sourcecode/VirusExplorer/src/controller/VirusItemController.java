@@ -23,7 +23,7 @@ public class VirusItemController {
         this.virus = virus;
     }
 
-    private void setData() {
+    public void setData() {
         tfVirusName.setText(virus.getName());
     }
 
