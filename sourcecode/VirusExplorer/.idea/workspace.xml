@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="" />
+    <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/update__mainScreenController",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer/src",
     "node.js.detected.package.eslint": "true",
@@ -87,6 +89,7 @@
       <workItem from="1704452391588" duration="135000" />
       <workItem from="1704534205421" duration="598000" />
       <workItem from="1704535869735" duration="12000" />
+      <workItem from="1704536276719" duration="430000" />
     </task>
     <servers />
   </component>
