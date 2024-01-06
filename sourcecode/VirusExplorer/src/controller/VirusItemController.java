@@ -24,7 +24,7 @@ public class VirusItemController {
     }
 
     public void setData(Virus virus) {
-        tfVirusName.setText(virus.name);
+        tfVirusName.setText(virus.getName());
     }
 
     public void btnExamineVirusClicked(ActionEvent e) {
@@ -66,7 +66,6 @@ public class VirusItemController {
             inspectInfectionStage.initOwner(((Node) e.getSource()).getScene().getWindow());
             inspectInfectionStage.setScene(new Scene(root));
             inspectInfectionStage.setTitle("Infection process");
-            inspectInfectionStage.setOnCloseRequest(closingEvent -> inspectInfectionController.inspect_infection.getMediaPlayer().stop());
             inspectInfectionStage.show();
         } catch (IOException ioe) {
             ioe.printStackTrace();
