@@ -33,3 +33,4 @@ PATH_TO_FX whose value is the path to the mentioned lib folder in Settings.
 
 ## Demo
 
+https://github.com/la-serene/OOLT.VN.20231-18/assets/127743709/efc71c79-533b-4147-9751-e7c8587f7518
