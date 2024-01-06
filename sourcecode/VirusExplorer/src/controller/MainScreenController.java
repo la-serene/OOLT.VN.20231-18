@@ -132,7 +132,6 @@ public class MainScreenController {
             ioe.printStackTrace();
         }
     }
-
     @FXML
     public void btnQuitClicked(ActionEvent e) {
         Platform.exit();
