@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2024_04_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2024_04_30__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InspectInfectionController.java" afterDir="false" />
-    </list>
+    <list default="true" id="291af04d-2846-41b9-9e63-c657c0dc88b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "demo",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "I:/BKA/nam_ba/20231/OOP/OOLT.VN.20231-18/sourcecode/VirusExplorer/src",
@@ -103,7 +99,7 @@
       <workItem from="1704534205421" duration="598000" />
       <workItem from="1704535869735" duration="12000" />
       <workItem from="1704536276719" duration="430000" />
-      <workItem from="1704542779679" duration="313000" />
+      <workItem from="1704542779679" duration="726000" />
     </task>
     <servers />
   </component>
